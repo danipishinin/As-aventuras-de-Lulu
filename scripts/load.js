@@ -1,0 +1,16 @@
+function preload() {
+  imagemCenario = loadImage('assets/imagens/cenarios/forest4.png')
+  imagemPersonagem = loadImage('assets/imagens/personagens/correndo_dir_caj.png')
+  imagemInimigo = loadImage('assets/imagens/inimigos/gotinha.png')
+  imagemGameOver = loadImage('assets/imagens/elementos/telaGameOver.png')
+  somDoJogo = loadSound('assets/audio/trilha_jogo.mp3')
+  somPulo = loadSound('assets/audio/somPulo.mp3')
+  somGameOver = loadSound('sounds/GameOver.ogg')
+  imagemInimigoGrande = loadImage('assets/imagens/inimigos/troll.png')
+  imagemVoador = loadImage('assets/imagens/inimigos/gotinha-voadora.png')
+  imagemTelaInicial = loadImage('assets/imagens/cenarios/telainicial2.jpg')
+  fonteTelaInicial = loadFont('assets/fonte/fonteTelaInicial.otf')
+  imagemVida = loadImage('assets/imagens/elementos/coracao.png')
+  fita = loadJSON('fita.json')
+  ground = loadImage('assets/imagens/cenarios/Ground.png')
+}
